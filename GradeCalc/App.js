@@ -151,7 +151,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#ef233c',
+    backgroundColor: '#4682B4',
     borderRadius: 15,
     marginTop: 40,
     marginBottom: 10,
