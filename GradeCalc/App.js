@@ -105,18 +105,18 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#ed2f4',
+    backgroundColor: '#000',
   },
   titleContainer: {
     alignItems: 'center',
     justifyContent: 'flex-end',
     height: 130,
-    backgroundColor: '#4682B4',
+    backgroundColor: '#5F9EA0',
     borderBottomStartRadius: 25,
     borderBottomEndRadius: 25,
   },
   title: {
-    color: '#edf2f4',
+    color: '#fff',
     fontSize: 28,
     fontWeight: 'bold',
     marginBottom: 30,
@@ -125,24 +125,24 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 40,
     width: '100%',
-    backgroundColor: '#edf2f4'
+    backgroundColor: '#000'
   },
   subTitle: {
     textAlign: 'center',
     fontSize: 24,
-    color: '#4682B4',
+    color: '#5F9EA0',
     fontWeight: 'bold',
     marginBottom: 40,
   },
   label: {
-    color: '#000',
+    color: '#fff',
     fontSize: 18,
   },
   input: {
     height: 45,
     width: '100%',
     fontSize: 18,
-    borderColor: '#4682B4',
+    borderColor: '#5F9EA0',
     borderBottomWidth: 2
   },
   button: {
@@ -151,7 +151,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#4682B4',
+    backgroundColor: '#5F9EA0',
     borderRadius: 15,
     marginTop: 40,
     marginBottom: 10,
@@ -170,12 +170,12 @@ const styles = StyleSheet.create({
   },
   resultText: {
     fontSize: 18,
-    color: '#ef233c',
+    color: '#fff',
     fontWeight: 'bold'
   },
   result: {
     fontSize: 48,
-    color: '#ef233c',
+    color: '#fff',
     fontWeight: 'bold',
   }
 });
